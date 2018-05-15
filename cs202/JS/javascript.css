@@ -1,0 +1,47 @@
+*{margin:0; padding: 0; font-family: sans-serif;}
+
+h1{
+  margin: 1em;
+}
+
+body{
+  background-color: #222;
+  color: lime;
+}
+
+section{
+  margin: 1em;
+  border-radius: .5em;
+  background-color: lightgrey;
+  color:darkgreen;
+  padding: 1em;
+}
+
+.lable{
+  display: inline-block;
+  margin: .4em 0em;
+}
+
+.lable::after{
+  content: ": ";
+}
+
+hr{
+  border-color: lime;
+  margin-left: 1em;
+  margin-right: 1em;
+  display:none;
+}
+
+samp{
+  margin: .5em 0;
+  padding: .5em;
+  background-color: #222;
+  color:lime;
+  display: block;
+  overflow: auto;
+}
+
+.hidden{
+  display:none;
+}

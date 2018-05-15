@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript</title>
+    <script src="javascript.js"></script>
+    <link href="javascript.css" rel="stylesheet" />
+  </head>
+  <body>
+    <article>
+      <h1>JavaScript</h1>
+      <section id="risk">
+        <h2>Are you at Risk?</h2>
+        <div class="lable">Height (in inches)</div>
+        <input type="text" id="height">
+        <div class="lable">Weight (in pounds)</div>
+        <input type="text" id="weight">
+        <br>
+        <div class="lable">Male</div>
+        <input type="radio" id="male" name="sex" value="M">
+        <div class="lable">Female</div>
+        <input type="radio" id="female" name="sex" value="F">
+        <br>
+        <input type="button" id="riskButton" onClick="getRisk();" value="Submit">
+        <samp id="riskOutput" class="hidden"><samp>
+      </section>
+      <section id="roman">
+        <h2>Roman Numeral Converter</h2>
+        <div class="roman">
+          <div class="lable">Enter roman numeral in [I,X]</div>
+          <input type="text" id="romanNumeral">
+          <input type="button" id="romanButton1" onClick="fromRoman();" value="Submit">
+          <samp id="fromRomanOutput" class="hidden"><samp>
+        </div>
+        <div class ="roman">
+          <div class="lable">Enter number in [1,10]</div>
+          <input type="number" id="romanNum">
+          <input type="button" id="romanButton1" onClick="toRoman();" value="Submit">
+          <samp id="toRomanOutput" class="hidden"><samp>
+      </section>
+      <section id="follow">
+        <h2>Letters That Follow</h2>
+        <div class="lable">String</div>
+        <input type="text" id="followString">
+        <div class="lable">Char</div>
+        <input type="text" id="followChar">
+        <input type="button" id="followButton" onClick="follow()" value="Go Button">
+        <samp id="followOutput" class="hidden"></samp>
+      </section>
+      <section class="cashier">
+        <h2>Cashier</h2>
+        <div class="lable">Price</div>
+        <input type="number" id="price">
+        <div class="lable">Payment</div>
+        <input type="number" id="payment">
+        <input type="button" id="changeButton" onClick="getChange()" value="Get Change">
+        <samp id="changeOutput" class="hidden"></samp>
+      </section>
+      <section class="repeat">
+        <h2>Repeat</h2>
+        <div class="lable">String to Repeat</div>
+        <input type="text" id="repeatString">
+        <div class="lable">Number of repetitions</div>
+        <input type="number" id="repeatNum">
+        <input type="button" id="repeatButton" onClick="peat()" value="Repeat">
+        <samp id="repeatOutput" class="hidden"></samp>
+      </section>
+    </article>
+  </body>
+</html>

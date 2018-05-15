@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Passwords</title>
+    <script src="dictionary.js"></script>
+    <script src="randPass.js"></script>
+    <link href="rand.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section id="inputs">
+      <div class="lable">Minimum Number of Characters:</div>
+      <input type="number" id="minLenght">
+      <div class="lable">Number of Words:</div>
+      <input type="number" id="numWords">
+      <input type="button" id="button1" onClick="generatePass()" value="Generate">
+    </section>
+    <section id="outputs">
+      <div id="new"></div>
+      <div id="old"></div>
+    </section>
+  </body>
+</html>
